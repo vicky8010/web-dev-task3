@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+#post div{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#post{
+    width: 400px;
+}
+.option{
+    display: flex;
+    gap: 25px;
+}
+i{
+    cursor: pointer;
+}
+#msg{
+    color: rgb(166, 255, 0);
+}
